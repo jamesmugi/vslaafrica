@@ -1,0 +1,50 @@
+@import '../../styles/app';
+
+.visits-page {
+  .post-comments footer {
+    margin: 0 (-$widget-padding-horizontal) (-$widget-padding-vertical);
+    padding: $widget-padding-vertical $widget-padding-horizontal;
+  }
+.title-position {
+  align-items: center;
+  // background-color: #040620;
+  text-decoration: underline;
+  // color: #fff
+  text-align: center;
+}
+
+.progress {
+  background-color: #a6a6ad;
+}
+  .stat-item .name {
+    margin-top: 10px;
+    line-height: 0px !important;
+  }
+
+  .name {
+    color: black;
+  }
+
+  .table {
+    .table.table-sm {
+      td {
+        font-size: 1rem;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .market-stats {
+    .abc-checkbox label {
+      &::before {
+        background-color: transparent;
+      }
+      &::after {
+        color: #eee;
+      }
+    }
+  }
+  .text-black {
+    color: #000;
+  }
+}
